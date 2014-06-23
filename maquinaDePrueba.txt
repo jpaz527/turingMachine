@@ -1,0 +1,3 @@
+q1,0,q2,_,r,q2,0,q3,x,r,q3,0,q4,0,r,q4,0,q3,x,r,q5,0,q5,0,l,q1,x,q7,x,r,q2,x,q2,x,r,q3,x,q3,x,r,q4,x,q4,x,r,q5,x,q5,x,l,q1,_,q7,_,r,q2,_,q6,_,r,q3,_,q5,_,l,q4,_,q7,_,r,q5,_,q2,_,r
+
+Maquina que acepta 0^(2^n) con 7 estados

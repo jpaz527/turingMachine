@@ -19,6 +19,8 @@ var alfabeto =[];
 	$( "div.hidden2" ).hide();
 	$( "div.help1" ).hide();
 	$( "div.help2" ).hide();
+	$( "div.tablaHidden" ).hide();
+	$( "div.resultadosFinales" ).hide();
 	
 	$( "#alfabeto" ).keyup(function(event) {
 	console.log("El tamanio es de: " + document.getElementById("alfabeto").value.length);
@@ -46,6 +48,7 @@ var alfabeto =[];
 					{
 						resetArray();
 						actualizarTabla();
+						$( "div.tablaHidden" ).show();
 					}
 					
 					
@@ -92,6 +95,7 @@ var alfabeto =[];
 				{
 					resetArray();
 					actualizarTabla();
+					$( "div.tablaHidden" ).show();
 				}
 			}
 			else
@@ -143,6 +147,7 @@ var alfabeto =[];
 				if(valCadena() === true)
 				{
 					configuracion();
+					$( "div.resultadosFinales" ).show("slow");
 				}
 				else
 				{
